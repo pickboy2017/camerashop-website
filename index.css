@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
+  background-color: #0077cc;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Layout styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  color: black;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 29px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 20px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-image: url("background-image/images/camera.png");
+  background-size: cover;
+  color: black;
+  margin: 5px;
+  text-align: center;
+}
+.camera {
+  object-fit: contain;
+  flex: 1;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.repairs {
+  padding: 40px;
+  background-color: #f7f7f7;
+}
+
+.repairs h2 {
+  margin-bottom: 20px;
+}
+
+.repairs form {
+  margin-bottom: 20px;
+}
+
+.repairs label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.repairs input[type="text"],
+.repairs input[type="email"],
+.repairs textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.repairs input[type="submit"] {
+  background-color: #005fa3;
+}
+
+.video-ad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.video-ad h2 {
+  margin-bottom: 20px;
+}
+
+.video-ad video {
+  max-width: 100%;
+}
+
+.featured-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #f7f7f7;
+}
+
+.product {
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.product h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.about-us h2 {
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  max-width: 80%;
+}
+.checkbutton:hover {
+  opacity: 100%;
+}
+.checkbutton {
+  padding: 7px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 80%;
+}
+img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border: none;
+  border-radius: 16px;
+}
+#individual-experience {
+  display: flex;
+  width: 50%;
+  border-color: #005fa3;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #f7f7f7;
+  color: black;
+  border-radius: 5px;
+}
+.Lemuel {
+  float: left;
+  margin: 10px;
+  width: 40%;
+  height: 40%;
+  align-items: center;
+}
+.testimony {
+  font-size: 12px;
+  margin-left: 10%;
+  font-style: italic;
+}
