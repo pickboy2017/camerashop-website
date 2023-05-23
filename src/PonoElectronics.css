@@ -1,7 +1,8 @@
+/*
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+*/
 /* Reset CSS */
 * {
   margin: 0;
@@ -41,7 +42,10 @@ button {
 button:hover {
   background-color: #005fa3;
 }
-
+.herolines{
+  color: #005fa3;
+  font-weight: bold;
+}
 /* Layout styles */
 header {
   display: flex;
@@ -84,7 +88,9 @@ nav li {
   font-size: 48px;
   margin-bottom: 20px;
 }
-
+.hero{
+  gap: 5px;
+}
 .hero p {
   font-size: 24px;
   margin-bottom: 40px;
@@ -221,4 +227,5 @@ img {
   font-size: 12px;
   margin-left: 10%;
   font-style: italic;
+  padding: 5px;
 }
